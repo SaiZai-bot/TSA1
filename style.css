@@ -1,0 +1,92 @@
+
+#wrapper {
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: bisque;
+    height: fit-content;
+    max-width: 750px;
+    padding: 20px;
+    float: right;
+    border-width: thick;
+
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    
+
+}
+
+#header img {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+    margin-right: 30px;
+
+   
+}
+
+#text {
+    flex: 1;
+    margin: 10px;
+}
+
+#body{
+    width: 100%;
+    display: block;
+    margin-right: 20px;
+
+    align-items: center;
+    gap: 600px;
+    
+
+}
+
+#body p {
+    margin: 10px;
+}
+
+#objective p {
+    font-size: 1rem; 
+    line-height: 1.6;      
+    text-align: justify;   
+}
+
+#objective h1 {
+    margin-left: 25px;
+}
+
+
+
+#academicsbg {
+    display: flex;
+}
+
+#academicsbg p {
+    margin-top: 50px;
+    margin: 40px;
+}
+
+#skills {
+    margin-left: 30px;
+    margin: 50px;
+}
+
+#skills p {
+    margin-top: 40px;
+}
+
+.button {
+    background-color: lightsalmon;
+    width: 150px;
+    height: 50px;
+}
+
+.button:hover {
+    background-color: burlywood;
+}
